@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>For Jusmine</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@500;700&family=Figtree:wght@400;500;600&family=Gochi+Hand&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="bow" viewBox="0 0 64 36">
+    <path d="M32 18 C24 4 6 2 3 10 C0 20 14 32 32 18 Z" fill="currentColor"/>
+    <path d="M32 18 C40 4 58 2 61 10 C64 20 50 32 32 18 Z" fill="currentColor"/>
+    <path d="M32 18 L22 34 L28 33 L32 24 L36 33 L42 34 Z" fill="currentColor" opacity=".75"/>
+    <rect x="28" y="13" width="8" height="10" rx="3" fill="currentColor"/>
+  </symbol>
+</svg>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <span class="hello">hi, babe</span>
+      <p class="eyebrow">A page made just for you</p>
+      <h1>Jusmine</h1>
+      <p class="sub">Every silly face, sleepy dinner, and finger heart, kept in one place where it can't get lost between screenshots.</p>
+      <svg class="bow" aria-hidden="true"><use href="#bow"/></svg>
+    </div>
+    <div class="stack">
+      <figure class="polaroid"><button class="ph" data-open="taekwondo_booth"><img src="images/taekwondo-booth.jpg" alt="Jusmine and me posing with finger hearts at a taekwondo photo booth"></button><figcaption>finger hearts</figcaption></figure>
+      <figure class="polaroid"><button class="ph" data-open="ice_cream_break"><img src="images/ice-cream-break.jpg" alt="Jusmine and me at a yellow table with a cup of ice cream"></button><figcaption>ice cream break</figcaption></figure>
+      <figure class="polaroid"><button class="ph" data-open="green_beams_tongues_out"><img src="images/green-beams-tongues-out.jpg" alt="Jusmine and me sticking our tongues out under green beams"></button><figcaption>tongues out</figcaption></figure>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">The wall</p>
+      <h2>Us, in no particular order</h2>
+      <p class="lede">Tap any photo to see it bigger.</p>
+      <div class="wall" id="wall"></div>
+    </div>
+  </section>
+
+  <section class="booth">
+    <div class="wrap">
+      <p class="eyebrow">Photobooth</p>
+      <h2>Four frames is never enough</h2>
+      <div class="booth-grid">
+        <button data-open="photobooth_strip" aria-label="Open the photobooth strip"><img class="strip" src="images/photobooth-strip.jpg" alt="A pink photobooth strip with four frames of Jusmine and me making faces"></button>
+        <button data-open="four_frame_faces" aria-label="Open the four-frame photo"><img class="quad" src="images/four-frame-faces.jpg" alt="A four-frame photo of Jusmine and me posing and pulling faces"></button>
+        <p class="booth-note">Frame one: serious. Frame two: not serious at all.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">Six reasons, and counting</p>
+      <h2>Why it's you</h2>
+      <p class="lede">Tap a card to read it.</p>
+      <div class="reasons" id="reasons"></div>
+    </div>
+  </section>
+
+  <section class="word">
+    <div class="wrap">
+      <p class="eyebrow">From the Word</p>
+      <h2>God is love, babe</h2>
+      <p class="lede">The verses I pray over us.</p>
+      <div class="scripture">
+        <blockquote><p>Two are better than one, because they have a good reward for their labor.</p><cite>Ecclesiastes 4:9</cite></blockquote>
+        <blockquote><p>Love bears all things, believes all things, hopes all things, endures all things.</p><cite>1 Corinthians 13:7</cite></blockquote>
+        <blockquote><p>My beloved is mine, and I am his.</p><cite>Song of Solomon 2:16</cite></blockquote>
+        <blockquote><p>We love, because he first loved us.</p><cite>1 John 4:19</cite></blockquote>
+      </div>
+      <p class="note">Whatever we build together, I want it built on this. (Verses from the World English Bible.)</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">Written for us</p>
+      <h2>Little verses, babe</h2>
+      <p class="lede">A few lines for each of our favorite moments.</p>
+      <div class="verses">
+        <figure class="verse"><h3>Tongues out</h3><p>You stick your tongue out, so do I,<br>The camera blinks and looks away.<br>Not one of these is dignified,<br>And I would not trade a single day.</p></figure>
+        <figure class="verse"><h3>Yellow table</h3><p>Ice cream melting, spoon in hand,<br>You tilt your head and smile at me.<br>Of all the places I could stand,<br>This yellow table is where I'd be.</p></figure>
+        <figure class="verse"><h3>Under the tree</h3><p>The branches held the light up high<br>And framed your crooked grin.<br>I forgot to count the time go by<br>The moment you leaned in.</p></figure>
+        <figure class="verse"><h3>Craft day</h3><p>You sit down low and the kids draw near,<br>Beads and crayons in a pile.<br>Everyone feels welcome here<br>When you are the one with the smile.</p></figure>
+        <figure class="verse"><h3>Four frames</h3><p>Frame one, we try to look sincere,<br>Frame two, we both give up.<br>You laugh and I forget the rest,<br>My babe, you fill my cup.</p></figure>
+        <figure class="verse last"><h3>For you, babe</h3><p>So here's a page of silly things,<br>Of bows and booths and paper cups.<br>Whatever the next year brings,<br>I pick you. Babe, it's always us.</p></figure>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <article class="letter">
+        <p class="to">Jusmine, my babe,</p>
+        <p>I made this page because photos get buried on a phone, and you deserve a place of your own.</p>
+        <p>Look at us: ice cream at a yellow table, a taekwondo booth where we posed like we had planned it, a tree we ended up lying under, and a lot of photobooth faces that should never be shown to anyone. Every one of them is my favorite.</p>
+        <p>You are the person who sits down on the floor with the kids and ends up surrounded by them. You are also the person who sticks her tongue out the second a camera points your way. I love that you are both.</p>
+        <p>Thank you for the laughs, the patience, and the pink bows.</p>
+        <p class="sig">Yours, always, babe</p>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <svg class="bow" aria-hidden="true"><use href="#bow"/></svg>
+  <div class="wrap">Made for you, babe. October 2026</div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <img id="lbImg" alt="">
+  <div class="cap" id="lbCap"></div>
+  <div class="msg" id="lbMsg"></div>
+  <div class="row">
+    <button id="lbPrev" type="button">Back</button>
+    <button id="lbNext" type="button">Next</button>
+    <button id="lbClose" type="button">Close</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
