@@ -1,15 +1,15 @@
 var IMG = {
-  peace_sign_dim_lights: "images/peace-sign-dim-lights.jpg",
-  green_beams_tongues_out: "images/green-beams-tongues-out.jpg",
-  under_the_tree: "images/under-the-tree.jpg",
-  dinner_tongues_out: "images/dinner-tongues-out.jpg",
-  craft_day_with_kids: "images/craft-day-with-kids.jpg",
-  ice_cream_break: "images/ice-cream-break.jpg",
-  through_the_camera: "images/through-the-camera.jpg",
-  heads_together: "images/heads-together.jpg",
-  photobooth_strip: "images/photobooth-strip.jpg",
-  taekwondo_booth: "images/taekwondo-booth.jpg",
-  four_frame_faces: "images/four-frame-faces.jpg"
+  peace_sign_dim_lights: "peace-sign-dim-lights.jpg",
+  green_beams_tongues_out: "green-beams-tongues-out.jpg",
+  under_the_tree: "under-the-tree.jpg",
+  dinner_tongues_out: "dinner-tongues-out.jpg",
+  craft_day_with_kids: "craft-day-with-kids.jpg",
+  ice_cream_break: "ice-cream-break.jpg",
+  through_the_camera: "through-the-camera.jpg",
+  heads_together: "heads-together.jpg",
+  photobooth_strip: "photobooth-strip.jpg",
+  taekwondo_booth: "taekwondo-booth.jpg",
+  four_frame_faces: "four-frame-faces.jpg"
 };
 var WALL = [
   ["taekwondo_booth", "Taekwondo booth", "Jusmine and me at a taekwondo experience booth"],
